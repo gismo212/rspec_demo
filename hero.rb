@@ -1,6 +1,6 @@
 class Hero
   def initialize(name, health=100)
-    @name = name.downcase 
+    @name = name.capitalize
     @health = health
   end 
 
@@ -17,6 +17,6 @@ class Hero
   end
 
   def hero_info
-    "#{name}#{@health}"
+    "#{name} has a health of #{@health}"
   end
 end
