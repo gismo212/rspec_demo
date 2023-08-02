@@ -83,3 +83,8 @@ rspec hero_spec.rb
 
 
 rspec hero_spec.rb --color(цветной вывод) запуск теста 
+
+
+” нас часто повтор€етс€ код hero = Hero.new 'foo',
+ и это не совпадает с DRY (Don`t Repeat Yourself), вы не должны писать повтор€ющийс€  код
+ниже мы его оптимизируем, добавив before-do-end
