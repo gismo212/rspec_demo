@@ -82,6 +82,15 @@ rspec hero_spec.rb
   end
 
 
+—труктура тестов:
+слова встречающиес€ в тестировании
+
+# arrange  - подготовка  | car = Car.new
+# act     -  действие    | car.add_fuel 10
+# assert  - проверка     | expect(result) 
+
+
+
 rspec hero_spec.rb --color(цветной вывод) запуск теста 
 
 
